@@ -1,0 +1,30 @@
+Power Motor Industries Sdn Bhd has been acquired by Tesla Motor Inc. Due to acquisition, current practice for
+calculating hourly employees needs to streamline with Tesla Motor accounting practice. These new rules affect
+the calculation of overtime for hourly employees.
+These new rules require a different rate for each employee based on the year of service and number of
+overtime hours for the day.
+
+Seniority (year) multiplier
+0 - 1 -> 1
+2 - 3 -> 1.1
+4 - 5 -> 1.2
+> 6   -> 1.7
+
+Overtime (hour) multiplier
+0 - 1 -> 2
+2 - 3 -> 2.1
+> 4   -> 3
+
+For example, Tajuddin has been an employee for Power Motor since 2019 and he has 2.5 hour of overtime
+and his hourly rate is RM 20 /per hour.
+Number of years = 2
+
+First Hour
+(1 * 1.1) * 2 * 20 = 44
+
+Second Hour
+(1.5 * 1.1) * 2.1 * 20 = 69.3
+
+Total overtime wages for the day is RM 113.30
+Please write a function in any programming language or pseudo-code to determine overtime wages given the
+number of years of service and overtime hours.
